@@ -1,0 +1,39 @@
+ body { 
+    background-color: burlywood;
+ }
+ 
+ 
+ 
+ h1 {
+     color: black;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ h2 {
+    color:gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+ }
+
+  {
+
+ }
+
+ li{
+     color: brown;
+     list-style: none;
+     font-size: 30px;
+     font-family: Verdana, Tahoma, sans-serif;
+     padding: 1px;
+     padding-inline-start: 0.5%;
+     padding-right: 50%;
+     text-decoration: none;
+ }
+
+ a{
+     color: burlywood;
+     background: brown;
+     
+ }
+
+ 
