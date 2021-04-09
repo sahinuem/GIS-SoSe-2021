@@ -1,5 +1,6 @@
  body { 
     background-color: burlywood;
+    
  }
  
  
@@ -15,19 +16,15 @@
 
  }
 
-  {
-
- }
-
  li{
      color: brown;
      list-style: none;
      font-size: 30px;
      font-family: Verdana, Tahoma, sans-serif;
-     padding: 1px;
-     padding-inline-start: 0.5%;
-     padding-right: 50%;
-     text-decoration: none;
+     padding:1%;
+     padding-inline-start: 1%;
+     padding-block-end: 1%;
+     
  }
 
  a{
