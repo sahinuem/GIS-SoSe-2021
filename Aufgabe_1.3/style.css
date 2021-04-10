@@ -3,37 +3,6 @@ body {
     text-align: center;
 }
 
-#nav ul {
-    list-style-type: none;
-    height: 100%;
-    width: 25%;
-    position: fixed;
-    z-index: 1;
-    nav-right: 1;
-    padding-inline-start: 85%;
-    overflow: auto;
-  }
-
-  .content{
-      margin-right: 200px;
-  }
-  
-  li a {
-    display: block;
-    color:bsque;
-    padding: 8px 16px;
-    text-decoration: none;
-    font-family: Verdana, Tahoma, sans-serif;
-  }
-  li a.active {
-    background-color: black;
-    color: red;
-  }
-  li a:hover:not(.active) {
-    background-color: rgb(129, 117, 117);
-    color:black;
-  }
-
 #Portfolio{
     width: 800px;
     margin:0 auto;
