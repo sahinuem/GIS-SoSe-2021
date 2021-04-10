@@ -85,6 +85,11 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#main image{
+        width: 100%;
+        height: auto;
+      }
+
 #inhalt{
     float:left;
     width: 800px;
