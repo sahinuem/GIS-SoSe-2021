@@ -1,7 +1,7 @@
 body { 
     
     margin: 0;
-    background-color:burlywood;
+    background:white;
     text-align: center;
     
     
@@ -49,7 +49,7 @@ body {
 #menu nav ul{
     
     
-        list-style-type: none;
+        list-style-type:none;
         margin: 70pt;
         padding: 30pt;
         width: 15%;
@@ -73,7 +73,7 @@ body {
     li a.active {
       background-color:rgb(77, 40, 40);
       color:rgb(231, 231, 195);
-      text-decoration: underline;
+      text-decoration:underline;
 
     }
       li a:hover:not(.active) {
