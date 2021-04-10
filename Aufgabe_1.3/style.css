@@ -3,14 +3,45 @@ body {
     text-align: center;
 }
 
+#nav ul {
+    list-style-type: none;
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    z-index: 1;
+    nav-right: 1;
+    padding-inline-start: 85%;
+    overflow: auto;
+  }
+
+  .content{
+      margin-right: 200px;
+  }
+  
+  li a {
+    display: block;
+    color:bsque;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: Verdana, Tahoma, sans-serif;
+  }
+  li a.active {
+    background-color: black;
+    color: red;
+  }
+  li a:hover:not(.active) {
+    background-color: rgb(129, 117, 117);
+    color:black;
+  }
+
 #Portfolio{
     width: 800px;
     margin:0 auto;
 }
 #header{
     width: 800px;
-    height: 100px;
-    background: cornsilk;
+    height: 150px;
+    background: blanchedalmond;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -18,7 +49,7 @@ body {
 }
 #header h1{
     padding-top: 50px;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     color: black;
     font-family: Verdana, Tahoma, sans-serif;
@@ -42,11 +73,22 @@ body {
     float:left;
     width: 660px;
     height: 250px;
-    background: lightpink;
+    background:chocolate;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
     -o-border-radius: 2px;
+}
+#footer{
+    width: 800px;
+    height: 30px;
+    background: brown;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 20px;
+    clear: both;
 }
