@@ -1,9 +1,10 @@
 body { 
     
     margin: 0;
-    background-color: white;
+    background-color:blanchedalmond;
     text-align: center; 
-    background-image: url(../Aufgabe_1.3/Hintergrund.png); 
+    background-image: url(../Aufgabe_1.3/Hintergrund.png);
+     
 }
 
 #Portfolio{
@@ -30,6 +31,7 @@ body {
 }
 
 
+
 #menu{
     float: right;
     width: 90px;
@@ -49,10 +51,12 @@ body {
     
     
         list-style-type:none;
-        margin: 70pt;
-        padding: 30pt;
-        width: 15%;
+        margin: 67pt;
+        padding: 40pt;
+        width: 10%;
+        text-align: center;
         margin-block-start: -120pt;
+        margin-block-end: 200pt;
         position: fixed;
         z-index: 1;
         nav-right: 1;
@@ -91,6 +95,7 @@ body {
     background: bisque;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-items: center;
+    text-align: center;
 }
 
 video {
@@ -181,12 +186,52 @@ video {
     height: 30px;
     background:saddlebrown;
     border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -o-border-radius: 5px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
     margin-top: 20px;
     clear: both;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     text-decoration: none;
+    
 }
+
+#footer nav ul{
+    list-style-type: none;
+    margin: 10pt;
+    padding: 10pt;
+    height: 10pt;
+    overflow: hidden;
+    background-color:saddlebrown;
+    text-decoration: none;
+    
+  
+  }
+  
+  li {
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+ 
+  }
+  
+  li a {
+    display: block;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:rgb(160, 152, 152);
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .active {
+    background-color: #4CAF50;
+    text-decoration: none;
+  }
+  
