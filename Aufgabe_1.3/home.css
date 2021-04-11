@@ -1,62 +1,66 @@
-body{
-  background-color: bisque;
-  text-align: center;
-}
-#Home{
-  width: 800px;
-  margin: 0 auto;
-}
-#header{
-  width: 800px;
-  height: 100px;
-  background: blanchedalmond;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -o-border-radius: 5px;
-}
-#header h1{
-  padding-top: 50px;
-  font-size: 60px;
-  font-weight: bold;
-  color: black;
+* {
+  box-sizing: border-box;
+  background-color: rgb(175, 153, 137);
+  background-image: url(../Aufgabe_1.3/Hintergrund.png);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#main{
-  width: 800px;
+
+.header {
+  border: 1px solid sienna;
+  padding: 15px;
+  text-align: center;
 }
-#menue{
-  float:left;
-  width: 200px;
-  height: 300px;
-  background:lightcoral;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border-radius: 2px;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  -o-border-radius: 2px;
-}
-#inhalt{
+
+.menu {
+  width: 25%;
   float: right;
-  width: 600px;
-  height: 300px;
-  background: saddlebrown;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border-radius: 2px;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  -o-border-radius: 2px;
+  padding: 15px;
+  border: 1px solid sienna;
+  text-align: left;
 }
-#footer{
-  width: 800px;
-  height: 20px;
-  background: yellow;
-  margin-top: 10px;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -o-border-radius: 5px;
-  clear: both;
+.nav{
+  background-color: saddlebrown;
+  height: 55px;
+  overflow: auto;
+  color: brown;
+}
+.navlist{
+  float: right;
+  background-color: sienna;
+ 
+}
+.navlist li{
+  display: inline-block;
+}
+.navlist li a{ 
+  color:black;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.navlist li a:hover{
+  color: gray;
+  text-decoration: none;
+}
+.li a.active{
+  background-color: black;
+  color: burlywood;
+  text-decoration: underline;
+}
+.li a:hover:not(.active){
+  background-color: black;
+  color:brown;
+}
+
+.main {
+  width: 75%;
+  float: left;
+  padding: 15px;
+  border: 1px solid sienna;
+  list-style: none;
+}
+
+.footer{
+    width: 800px;
+    height: 30px;  
+
 }
