@@ -1,0 +1,61 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body { 
+  margin: 0;
+  background-color: bisque;
+  background-color:white;
+}
+#Kontakt{
+  width: 800px;
+  margin: 0 auto;
+  background-color: wheat;
+
+}
+#nav{
+  background-color: saddlebrown;
+  height: 55px;
+  overflow: auto;
+}
+.navlist{
+  float: right;
+ 
+}
+.navlist li{
+  display: inline-block;
+}
+.navlist li a{ 
+  color: beige;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.navlist li a:hover{
+  color: gray;
+  text-decoration: none;
+}
+.li a.active{
+  background-color: black;
+  color: burlywood;
+  text-decoration: underline;
+}
+.li a:hover:not(.active){
+  background-color: black;
+  color:blueviolet;
+}
+.text-center{
+  text-align: center;
+}
+
+#header{
+  width: 800px;
+  height: auto;
+  background:white;
+}
+.Kontakt{
+  background-image: url(../Aufgabe_1.3/Medien/Kontakt.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 50px;
+  font-size: 20px;
+
+}
