@@ -91,6 +91,11 @@ body {
     align-items: center;
 }
 
+video {
+  width: 100%;
+  height: auto;
+}
+
 .text-center{
     text-align: center;
 }
