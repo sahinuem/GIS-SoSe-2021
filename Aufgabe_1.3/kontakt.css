@@ -5,6 +5,7 @@ body {
   margin: 0;
   background-color: bisque;
   background-color:white;
+  background-image: url(../Aufgabe_1.3/Hintergrund.png); 
 }
 #Kontakt{
   width: 800px;
