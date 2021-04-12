@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  background-color: rgb(175, 153, 137);
+  background-color: rgb(165, 73, 7);
   background-image: url(../Aufgabe_1.3/Hintergrund.png);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -9,6 +9,7 @@
   border: 1px solid sienna;
   padding: 15px;
   text-align: center;
+  background-color: aliceblue;
 }
 
 .menu {
@@ -17,6 +18,7 @@
   padding: 15px;
   border: 1px solid sienna;
   text-align: left;
+  background-color: antiquewhite;
 }
 .nav{
   background-color: saddlebrown;
@@ -57,6 +59,11 @@
   padding: 15px;
   border: 1px solid sienna;
   list-style: none;
+  background-color: brown;
+}
+.inhalt{
+  width: 100%;
+  
 }
 
 .footer{
